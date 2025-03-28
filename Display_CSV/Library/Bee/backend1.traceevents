@@ -1,0 +1,72 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1743166706330458, "dur":3243, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1743166706333737, "dur":3277, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1743166706337063, "dur":109, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1743166706337678, "dur":32161, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.AudioModule.dll_2A851ED4BE9760FB.mvfrm" }}
+,{ "pid":12345, "tid":0, "ts":1743166706370314, "dur":1576, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.ProfilerModule.dll_D609BDD4FE4C6888.mvfrm" }}
+,{ "pid":12345, "tid":0, "ts":1743166706337179, "dur":42832, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1743166706380018, "dur":14528, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1743166706394579, "dur":148, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1743166706394850, "dur":464, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1743166706337120, "dur":42906, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1743166706380033, "dur":14501, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1743166706337120, "dur":42916, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1743166706380059, "dur":241, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Volumes/My Passport for Mac/UNITY/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1743166706380300, "dur":13934, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Volumes/My Passport for Mac/UNITY/Unity.app/Contents/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe" }}
+,{ "pid":12345, "tid":2, "ts":1743166706380058, "dur":14189, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.ScreenCaptureModule.dll_A84F129D8B8C394F.mvfrm" }}
+,{ "pid":12345, "tid":2, "ts":1743166706394247, "dur":97, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1743166706394349, "dur":140, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Volumes/My Passport for Mac/UNITY/Unity.app/Contents/Managed/UnityEngine/UnityEditor.UIBuilderModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1743166706394348, "dur":185, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.UIBuilderModule.dll_D0128FED8A9ADED7.mvfrm" }}
+,{ "pid":12345, "tid":2, "ts":1743166706394533, "dur":113, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1743166706337129, "dur":42933, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1743166706380068, "dur":176, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Volumes/My Passport for Mac/UNITY/Unity.app/Contents/Managed/UnityEngine/UnityEditor.CoreModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1743166706380245, "dur":13947, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Volumes/My Passport for Mac/UNITY/Unity.app/Contents/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe" }}
+,{ "pid":12345, "tid":3, "ts":1743166706380067, "dur":14126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.CoreModule.dll_EE86E6B2F09220B3.mvfrm" }}
+,{ "pid":12345, "tid":3, "ts":1743166706394278, "dur":86, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Volumes/My Passport for Mac/UNITY/Unity.app/Contents/Managed/UnityEngine/UnityEditor.SceneViewModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1743166706394365, "dur":60, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Volumes/My Passport for Mac/UNITY/Unity.app/Contents/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe" }}
+,{ "pid":12345, "tid":3, "ts":1743166706394277, "dur":149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.SceneViewModule.dll_BA39C5D90D0532B1.mvfrm" }}
+,{ "pid":12345, "tid":3, "ts":1743166706394426, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1743166706394498, "dur":111, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Volumes/My Passport for Mac/UNITY/Unity.app/Contents/Managed/UnityEngine/UnityEditor.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1743166706394497, "dur":153, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.UnityConnectModule.dll_A0050158A06C28E9.mvfrm" }}
+,{ "pid":12345, "tid":4, "ts":1743166706337138, "dur":42933, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1743166706380078, "dur":263, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Volumes/My Passport for Mac/UNITY/Unity.app/Contents/Managed/UnityEngine/UnityEditor.DeviceSimulatorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1743166706380342, "dur":13831, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Volumes/My Passport for Mac/UNITY/Unity.app/Contents/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe" }}
+,{ "pid":12345, "tid":4, "ts":1743166706380077, "dur":14117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.DeviceSimulatorModule.dll_14B2846FE9BBD07E.mvfrm" }}
+,{ "pid":12345, "tid":4, "ts":1743166706394274, "dur":125, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Volumes/My Passport for Mac/UNITY/Unity.app/Contents/Managed/UnityEngine/UnityEditor.SceneTemplateModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1743166706394273, "dur":164, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.SceneTemplateModule.dll_FBAA7045776E84C6.mvfrm" }}
+,{ "pid":12345, "tid":4, "ts":1743166706394438, "dur":87, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1743166706337147, "dur":42934, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1743166706380087, "dur":52, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Volumes/My Passport for Mac/UNITY/Unity.app/Contents/Managed/UnityEngine/UnityEditor.DiagnosticsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1743166706380140, "dur":14035, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Volumes/My Passport for Mac/UNITY/Unity.app/Contents/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe" }}
+,{ "pid":12345, "tid":5, "ts":1743166706380086, "dur":14141, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.DiagnosticsModule.dll_8C7447A4EEFEB34C.mvfrm" }}
+,{ "pid":12345, "tid":5, "ts":1743166706394227, "dur":87, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1743166706394320, "dur":88, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Volumes/My Passport for Mac/UNITY/Unity.app/Contents/Managed/UnityEngine/UnityEditor.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1743166706394319, "dur":123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.TextCoreFontEngineModule.dll_3FE2F14DB287ECD1.mvfrm" }}
+,{ "pid":12345, "tid":5, "ts":1743166706394488, "dur":155, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Volumes/My Passport for Mac/UNITY/Unity.app/Contents/Managed/UnityEngine/UnityEditor.UIElementsSamplesModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1743166706394487, "dur":160, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.UIElementsSamplesModule.dll_5E3B00B8E2CC064E.mvfrm" }}
+,{ "pid":12345, "tid":6, "ts":1743166706337156, "dur":42933, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1743166706380094, "dur":232, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Volumes/My Passport for Mac/UNITY/Unity.app/Contents/Managed/UnityEngine/UnityEditor.dll" }}
+,{ "pid":12345, "tid":6, "ts":1743166706380327, "dur":13858, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Volumes/My Passport for Mac/UNITY/Unity.app/Contents/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe" }}
+,{ "pid":12345, "tid":6, "ts":1743166706380094, "dur":14127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.dll_2CDD21E933E28A72.mvfrm" }}
+,{ "pid":12345, "tid":6, "ts":1743166706394268, "dur":162, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Volumes/My Passport for Mac/UNITY/Unity.app/Contents/Managed/UnityEngine/UnityEditor.PresetsUIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1743166706394266, "dur":203, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.PresetsUIModule.dll_36F01BB31A3ABDA8.mvfrm" }}
+,{ "pid":12345, "tid":6, "ts":1743166706394469, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1743166706337165, "dur":42941, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1743166706380111, "dur":312, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Volumes/My Passport for Mac/UNITY/Unity.app/Contents/Managed/UnityEngine/UnityEditor.EditorToolbarModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1743166706380424, "dur":13750, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Volumes/My Passport for Mac/UNITY/Unity.app/Contents/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe" }}
+,{ "pid":12345, "tid":7, "ts":1743166706380110, "dur":14131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.EditorToolbarModule.dll_D80AFF877881DA8E.mvfrm" }}
+,{ "pid":12345, "tid":7, "ts":1743166706394242, "dur":96, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1743166706394343, "dur":131, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Volumes/My Passport for Mac/UNITY/Unity.app/Contents/Managed/UnityEngine/UnityEditor.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1743166706394342, "dur":176, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.TextCoreTextEngineModule.dll_87CB27BF420BA5EF.mvfrm" }}
+,{ "pid":12345, "tid":7, "ts":1743166706394519, "dur":109, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1743166706337175, "dur":42940, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1743166706380119, "dur":126, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Volumes/My Passport for Mac/UNITY/Unity.app/Contents/Managed/UnityEngine/UnityEditor.GraphViewModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1743166706380246, "dur":13978, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Volumes/My Passport for Mac/UNITY/Unity.app/Contents/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe" }}
+,{ "pid":12345, "tid":8, "ts":1743166706380118, "dur":14108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.GraphViewModule.dll_7B89E2D117E265A3.mvfrm" }}
+,{ "pid":12345, "tid":8, "ts":1743166706394270, "dur":150, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Volumes/My Passport for Mac/UNITY/Unity.app/Contents/Managed/UnityEngine/UnityEditor.QuickSearchModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1743166706394269, "dur":179, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.QuickSearchModule.dll_1783C8B247D5AFA5.mvfrm" }}
+,{ "pid":12345, "tid":8, "ts":1743166706394484, "dur":107, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Volumes/My Passport for Mac/UNITY/Unity.app/Contents/Managed/UnityEngine/UnityEditor.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1743166706394483, "dur":156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEditor.UIElementsModule.dll_F38132440ABC010F.mvfrm" }}
+,{ "pid":12345, "tid":8, "ts":1743166706394639, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1743166706397208, "dur":465, "ph":"X", "name": "ProfilerWriteOutput" }
+,
